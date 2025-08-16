@@ -58,9 +58,9 @@ public class ParkingService {
         Duration duration = Duration.between(startTime, endTime);
         long hours = duration.toHours()+1;
         long price=0;
-        if(ticket.getVehicleType().equals(VehicleType.CAR)){
+        if(ticket.getVehicleType().equals(VehicleType.CAR.toString())){
             price  = hours*200;
-        }else if(ticket.getVehicleType().equals(VehicleType.BUS)){
+        }else if(ticket.getVehicleType().equals(VehicleType.BUS.toString())){
             price = hours*500;
         }else{
             price = hours*100;
