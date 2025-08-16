@@ -1,11 +1,12 @@
 package com.alpha.task_scheduler.ParkingLot.controller;
 
-import com.learning.graph.ParkingLot.model.ParkingLot;
-import com.learning.graph.ParkingLot.model.Ticket;
-import com.learning.graph.ParkingLot.model.Vehicle;
-import com.learning.graph.ParkingLot.service.Impl.ParkingService;
-import com.learning.graph.ParkingLot.service.Impl.SmallestSlotFirstStrategy;
-import com.learning.graph.ParkingLot.service.ParkingStrategy;
+
+import com.alpha.task_scheduler.ParkingLot.model.ParkingLot;
+import com.alpha.task_scheduler.ParkingLot.model.Ticket;
+import com.alpha.task_scheduler.ParkingLot.model.Vehicle;
+import com.alpha.task_scheduler.ParkingLot.service.Impl.ParkingService;
+import com.alpha.task_scheduler.ParkingLot.service.Impl.SmallestSlotFirstStrategy;
+import com.alpha.task_scheduler.ParkingLot.service.ParkingStrategy;
 
 public class ParkingController {
 

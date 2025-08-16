@@ -1,7 +1,7 @@
 package com.alpha.task_scheduler.ParkingLot.model;
 
-import com.learning.graph.ParkingLot.enums.SlotType;
 
+import com.alpha.task_scheduler.ParkingLot.enums.SlotType;
 
 public class ParkingSlot {
     private String slotId;

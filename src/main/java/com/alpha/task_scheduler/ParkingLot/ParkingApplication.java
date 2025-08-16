@@ -1,13 +1,14 @@
 package com.alpha.task_scheduler.ParkingLot;
 
-import com.learning.graph.ParkingLot.controller.AdminController;
-import com.learning.graph.ParkingLot.controller.ParkingController;
-import com.learning.graph.ParkingLot.enums.SlotType;
-import com.learning.graph.ParkingLot.enums.VehicleType;
-import com.learning.graph.ParkingLot.model.ParkingLot;
-import com.learning.graph.ParkingLot.model.ParkingSlot;
-import com.learning.graph.ParkingLot.model.Ticket;
-import com.learning.graph.ParkingLot.model.Vehicle;
+
+import com.alpha.task_scheduler.ParkingLot.controller.AdminController;
+import com.alpha.task_scheduler.ParkingLot.controller.ParkingController;
+import com.alpha.task_scheduler.ParkingLot.enums.SlotType;
+import com.alpha.task_scheduler.ParkingLot.enums.VehicleType;
+import com.alpha.task_scheduler.ParkingLot.model.ParkingLot;
+import com.alpha.task_scheduler.ParkingLot.model.ParkingSlot;
+import com.alpha.task_scheduler.ParkingLot.model.Ticket;
+import com.alpha.task_scheduler.ParkingLot.model.Vehicle;
 
 import java.util.Scanner;
 

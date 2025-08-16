@@ -1,12 +1,13 @@
 package com.alpha.task_scheduler.ParkingLot.service.Impl;
 
-import com.learning.graph.ParkingLot.enums.SlotType;
-import com.learning.graph.ParkingLot.enums.VehicleType;
-import com.learning.graph.ParkingLot.model.ParkingLevel;
-import com.learning.graph.ParkingLot.model.ParkingLot;
-import com.learning.graph.ParkingLot.model.ParkingSlot;
-import com.learning.graph.ParkingLot.model.Vehicle;
-import com.learning.graph.ParkingLot.service.ParkingStrategy;
+
+import com.alpha.task_scheduler.ParkingLot.enums.SlotType;
+import com.alpha.task_scheduler.ParkingLot.enums.VehicleType;
+import com.alpha.task_scheduler.ParkingLot.model.ParkingLevel;
+import com.alpha.task_scheduler.ParkingLot.model.ParkingLot;
+import com.alpha.task_scheduler.ParkingLot.model.ParkingSlot;
+import com.alpha.task_scheduler.ParkingLot.model.Vehicle;
+import com.alpha.task_scheduler.ParkingLot.service.ParkingStrategy;
 
 import java.util.List;
 import java.util.Optional;
