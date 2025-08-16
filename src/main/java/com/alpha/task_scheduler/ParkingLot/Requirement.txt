@@ -1,0 +1,27 @@
+1. system should have capability to create a parking lot
+2. system should have capability to park vehicle
+3. system should have capability to support multiple vehicle types
+4. system must find and assign the smallest possible available slot.
+5. system should be able to calculate the fee for vehicle
+6. Admin should be able to add a multilevel parking lot
+7. Administer should have report number of vehicles parked in the lot and available slots
+8. system must support multiple command line arguments
+9. system should be concurrent for multiple users
+
+Enums:
+  VehicleType, SlotType, Command
+Interfaces:
+  ParkingStrategy (Defines a method like findSlot(...))
+Abstract Classes:
+  Vehicle (Attributes: licensePlate, vehicleType)
+  ParkingSlot (Attributes: slotId, slotType, isOccupied)
+Concrete Classes:
+  Car, Bus, Motorcycle (extend Vehicle)
+  CarSlot, BusSlot, MotorcycleSlot (extend ParkingSlot)
+  SmallestSlotFirstStrategy (implements ParkingStrategy)
+  Ticket (Attributes: ticketId, entryTime, vehicle, assignedSlot)
+  Admin (Methods: addLevel, addSlots, viewStatus)
+  ParkingLevel (Attributes: levelId, List<ParkingSlot>)
+  ParkingLot (Singleton. Attributes: List<ParkingLevel>, ParkingStrategy, Map<String, Ticket> ticketIdVsTicket, Methods: parkVehicle, exitVehicle)
+
+
